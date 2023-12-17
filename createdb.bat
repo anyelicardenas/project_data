@@ -1,0 +1,1 @@
+"C:\Program Files\PostgreSQL\16\bin\psql" -U postgres -tc "SELECT 1 FROM pg_database WHERE datname = 'duck_company'" |  FINDSTR 1 || "C:\Program Files\PostgreSQL\16\bin\psql" -U postgres -c "CREATE DATABASE duck_company"
